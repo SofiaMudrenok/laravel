@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/{surname}/cv/', function ($surname) {
-    return view('cv', $surname);
-});
+Route::get('/mudrenok/cv/', function () {
+    return view('cv');
+})->name('cv');
