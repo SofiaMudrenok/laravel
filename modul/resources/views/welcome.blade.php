@@ -20,31 +20,12 @@
         </style>
     </head>
 <body>
-<table class="table-auto">
-    <thead>
-    <tr>
-        <th>name</th>
-        <th>course</th>
-        <th>specialty</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    </tbody>
-</table>
+<div class="flex justify-center mt-16 px-0 sm:items-center sm:justify-between">
+    <div class="text-center text-sm text-gray-500 dark:text-gray-400 sm:text-left">
+        <div class="flex items-center gap-4">
+            <a href="{{route('marks')}}">To marks →</a>
+        </div>
+    </div>
+</div>
 <body>
 
