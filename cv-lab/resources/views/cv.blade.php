@@ -27,7 +27,7 @@
         <div class="mt-8 bg-white dark:bg-gray-300 overflow-hidden shadow sm:rounded-lg">
             <div class="grid grid-cols-1">
                 <div class="p-6 border-t border-gray-200 dark:border-gray-300 md:border-t-0 md:border-l w-full">
-                    <div class="grid items-center"> 
+                    <div class="grid items-center">
                         <h2>Mudrenok Sofia</h2>
                         <h4 class="font-semibold">Junior Laravel Developer</h4>
                         <h3>Skills</h3>
@@ -35,8 +35,5 @@
                         <h3>Education</h3>
                             <p>Uzhhorod National University 2021-2025</p>
                             <p>Bachelors of Computer Science</p>
-</body>
-</html>
-
     </div></div></div></div></div></div>
 </body>

@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AutoController;
+use App\Http\Controllers\DpsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +22,6 @@ Route::get('/', function () {
 Route::get('/mudrenok/cv/', function () {
     return view('cv');
 })->name('cv');
+Route::get('dps/{id}', [DpsController::class, 'show']);
+
+Route::resource('/auto', AutoController::class);
