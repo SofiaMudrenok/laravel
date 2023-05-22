@@ -17,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route::get('students/{id}/scores', 'StudentController@getStudentScores');
+Route::put('students/{id}/scores/{scoreId}', 'StudentController@updateStudentScore');
