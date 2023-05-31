@@ -2,7 +2,10 @@
 
 namespace App\Providers;
 
+use App\Models\Auto;
+use App\Policies\AutoPolicy;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Gate;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -15,7 +18,9 @@ class AppServiceProvider extends ServiceProvider
     {
         //
     }
-
+    protected $policies = [
+        Auto::class => AutoPolicy::class,
+    ];
     /**
      * Bootstrap any application services.
      *
@@ -24,5 +29,8 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+        Gate::define('show', function (User $user) {
+            return $user->role === 'superAdmin';
+        });
     }
 }

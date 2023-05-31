@@ -24,9 +24,9 @@
 <body class="antialiased">
 <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-center selection:bg-red-500 selection:text-white">
 <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-        <div class="mt-8 bg-white dark:bg-gray-300 overflow-hidden shadow sm:rounded-lg">
+        <div class="mt-8 bg-white overflow-hidden shadow sm:rounded-lg">
             <div class="grid grid-cols-1">
-                <div class="p-6 border-t border-gray-200 dark:border-gray-300 md:border-t-0 md:border-l w-full">
+                <div class="p-6 border-t border-gray-200 md:border-t-0 md:border-l w-full">
                     <div class="grid items-center">
                         <h2>Mudrenok Sofia</h2>
                         <h4 class="font-semibold">Junior Laravel Developer</h4>

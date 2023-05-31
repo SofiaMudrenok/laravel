@@ -10,6 +10,7 @@ class AutoController extends Controller
 {
     public function store(Request $request)
     {
+        $this->authorize('create', Auto::class);
 
         $validated = $request->validate([
             'vendor' => 'required|max:255',
@@ -57,6 +58,8 @@ class AutoController extends Controller
         {
             return abort(404);
         }
+        $this->authorize('update', $auto);
+
         return view(
             'auto.edit',
             ['auto' => $auto]
@@ -83,6 +86,7 @@ class AutoController extends Controller
             $auto->dps_id = $request->input('dps_id');
             $auto->save();
         }
+        $this->authorize('update', $auto);
         return view('auto.update', ['auto' => $auto]);
     }
     public function destroy(string $id)
@@ -92,6 +96,7 @@ class AutoController extends Controller
         {
             return abort(404);
         }
+        $this->authorize('delete', $auto);
         $auto->delete();
         return view(
             'auto.destroy',

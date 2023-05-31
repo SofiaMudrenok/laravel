@@ -27,7 +27,7 @@
             </form></div>
         </div>
     @empty
-        <p class="underline text-gray-600 dark:text-gray-400">
+        <p class="underline text-gray-600">
             No auto
         </p>
     @endforelse
@@ -43,7 +43,7 @@
             </h3>
         </article>
     @empty
-            <p class="underline text-gray-600 dark:text-gray-400">
+            <p class="underline text-gray-600">
             No data
         </p>
     @endforelse

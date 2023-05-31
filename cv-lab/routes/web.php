@@ -1,27 +1,44 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\AutoController;
 use App\Http\Controllers\DpsController;
+use App\Http\Controllers\AutoController;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 
-Route::get('/', function () {
-    return view('welcome');
+Route::middleware(['auth', 'verified'])->group(function () {
+    Route::get('/', function () {
+        return view('welcome');
+    })->name('home');
+
+    Route::get('/mudrenok/cv', function () {
+        return view('cv');
+    })->name('cv');
+
+    Route::get('dps/{id}', [DpsController::class, 'show']);
+
+    Route::resource('/auto', AutoController::class)->except(['edit', 'update', 'destroy']);
+
+    Route::middleware(['role:Editor'])->group(function () {
+        Route::get('/auto/{auto}/edit', [AutoController::class, 'edit'])->name('auto.edit');
+        Route::put('/auto/{auto}', [AutoController::class, 'update'])->name('auto.update');
+        Route::delete('/auto/{auto}', [AutoController::class, 'destroy'])->name('auto.destroy');
+    });
+
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+
+    Route::middleware(['role:Editor'])->group(function () {
+        Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+        Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+        Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    });
 });
 
-Route::get('/mudrenok/cv/', function () {
-    return view('cv');
-})->name('cv');
-Route::get('dps/{id}', [DpsController::class, 'show']);
+Route::middleware('auth')->get('/login', function () {
+    return redirect()->route('home');
+})->name('login');
 
-Route::resource('/auto', AutoController::class);
+require __DIR__.'/auth.php';
+
