@@ -17,7 +17,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
 
     Route::get('dps/{id}', [DpsController::class, 'show']);
 
-    Route::resource('/auto', AutoController::class)->except(['edit', 'update', 'destroy']);
+    Route::get('/auto', [AutoController::class, 'index'])->name('auto.index');
+    Route::resource('/auto', AutoController::class)->except(['index', 'edit', 'update', 'destroy']);
 
     Route::middleware(['role:Editor'])->group(function () {
         Route::get('/auto/{auto}/edit', [AutoController::class, 'edit'])->name('auto.edit');
@@ -26,7 +27,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
     });
 
     Route::get('/dashboard', function () {
-        return view('dashboard');
+        return view('welcome');
     })->name('dashboard');
 
     Route::middleware(['role:Editor'])->group(function () {

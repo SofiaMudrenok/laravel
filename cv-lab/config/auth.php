@@ -95,6 +95,10 @@ return [
         ],
     ],
 
+    'api' => [
+        'driver' => 'passport',
+        'provider' => 'users',
+    ],
     /*
     |--------------------------------------------------------------------------
     | Password Confirmation Timeout

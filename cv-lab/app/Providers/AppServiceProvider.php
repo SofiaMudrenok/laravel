@@ -6,6 +6,7 @@ use App\Models\Auto;
 use App\Policies\AutoPolicy;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Gate;
+use Illuminate\Http\Resources\Json\JsonResource;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -28,6 +29,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        JsonResource::withoutWrapping();
+
         //
         Gate::define('show', function (User $user) {
             return $user->role === 'superAdmin';
