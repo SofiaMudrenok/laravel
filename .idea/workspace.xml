@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2906cae9-8f0c-4fef-a2d3-d491779c695b" name="Changes" comment="lab-4">
-      <change beforePath="$PROJECT_DIR$/cv-lab/resources/views/auto/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/resources/views/auto/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv-lab/resources/views/auto/destroy.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/resources/views/auto/destroy.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv-lab/resources/views/auto/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/resources/views/auto/show.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="2906cae9-8f0c-4fef-a2d3-d491779c695b" name="Changes" comment="lab-4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
