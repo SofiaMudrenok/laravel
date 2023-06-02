@@ -13,7 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::table('auto', function (Blueprint $table) {
+        Schema::table('autos', function (Blueprint $table) {
             $table->unsignedBigInteger('superior_id')
                 ->default(1)
                 ->nullable(false);
@@ -31,7 +31,7 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::table('auto', function (Blueprint $table) {
+        Schema::table('autos', function (Blueprint $table) {
             $table->dropForeign(['superior_id']);
             $table->dropColumn('superior_id');
         });

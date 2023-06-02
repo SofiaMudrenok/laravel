@@ -5,38 +5,214 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2906cae9-8f0c-4fef-a2d3-d491779c695b" name="Changes" comment="lab-4">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_05_2023_20_32__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cv-lab/app/Http/Controllers/ApiTokenController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cv-lab/app/Http/Resources/AutoCollection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cv-lab/app/Http/Resources/AutoResource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cv-lab/app/Http/Resources/DPSCollection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cv-lab/app/Http/Resources/DPSResourse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cv-lab/resources/views/token/update.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv-lab/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv-lab/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv-lab/config/cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/config/cors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv-lab/config/sanctum.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/config/sanctum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv-lab/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv-lab/app/Models/Auto.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/app/Models/Auto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv-lab/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv-lab/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv-lab/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv-lab/database/migrations/2023_05_31_171606_add_superior_column_to_auto_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/database/migrations/2023_05_31_171606_add_superior_column_to_auto_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv-lab/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/database/seeders/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cv-lab/resources/views/auto/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/resources/views/auto/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv-lab/resources/views/auto/destroy.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/resources/views/auto/destroy.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv-lab/resources/views/auto/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/resources/views/auto/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cv-lab/resources/views/auto/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/resources/views/auto/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv-lab/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/resources/views/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv-lab/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cv-lab/resources/views/layouts/navigation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/resources/views/layouts/navigation.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv-lab/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv-lab/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cv-lab/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/modul/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/modul/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/modul/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/modul/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/modul/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/app/Http/Controllers/MarksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/app/Http/Controllers/MarksController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/app/Http/Middleware/EncryptCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/app/Http/Middleware/TrustHosts.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/app/Http/Middleware/ValidateSignature.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/app/Http/Middleware/ValidateSignature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/app/Models/Mark.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/app/Models/Mark.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/app/Models/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/app/Models/Student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/modul/artisan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/bootstrap/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/bootstrap/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/modul/bootstrap/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/config/broadcasting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/config/cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/config/cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/config/cors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/config/hashing.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/config/hashing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/config/logging.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/config/queue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/config/sanctum.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/config/sanctum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/config/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/config/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/database/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/modul/database/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/database/migrations/2023_03_27_063716_students.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/database/migrations/2023_03_27_063716_students.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/database/migrations/2023_03_27_105159_marks.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/database/migrations/2023_03_27_105159_marks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/database/migrations/2023_03_27_105656_add_marks_to_students.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/database/migrations/2023_03_27_105656_add_marks_to_students.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/lang/en/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/lang/en/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/lang/en/passwords.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/lang/en/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/modul/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/modul/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modul/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/modul/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/modul/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/modul/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/modul/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/modul/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/modul/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/resources/views/marks/marks.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/resources/views/marks/marks.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/routes/channels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/routes/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/modul/storage/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/modul/storage/app/public/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/storage/framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/modul/storage/framework/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/modul/storage/framework/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/storage/framework/cache/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/modul/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/storage/framework/sessions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/modul/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/modul/storage/framework/testing/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/modul/storage/framework/views/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/modul/storage/logs/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/modul/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/tests/CreatesApplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/tests/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modul/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/modul/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/module2/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/module2/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/module2/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/module2/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/module2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/app/Http/Controllers/StudentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/app/Http/Controllers/StudentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/app/Http/Middleware/CheckRole.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/app/Http/Middleware/CheckRole.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/app/Http/Middleware/EncryptCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/app/Http/Middleware/TrustHosts.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/app/Http/Middleware/ValidateSignature.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/app/Http/Middleware/ValidateSignature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/app/Models/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/app/Models/Student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/app/Models/StudentScore.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/app/Models/StudentScore.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/module2/artisan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/bootstrap/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/bootstrap/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/module2/bootstrap/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/module2/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/module2/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/config/broadcasting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/config/cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/config/cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/config/cors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/config/hashing.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/config/hashing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/config/logging.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/config/queue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/config/sanctum.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/config/sanctum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/config/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/config/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/database/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/module2/database/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/database/factories/StudentFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/database/factories/StudentFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/database/factories/StudentScoreFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/database/factories/StudentScoreFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/database/migrations/2014_10_12_100000_create_password_reset_tokens_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/database/migrations/2014_10_12_100000_create_password_reset_tokens_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/database/migrations/2023_05_22_074536_create_students_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/database/migrations/2023_05_22_074536_create_students_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/database/migrations/2023_05_22_075317_add_role_to_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/database/migrations/2023_05_22_075317_add_role_to_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/database/migrations/2023_05_22_080346_create_student_scores_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/database/migrations/2023_05_22_080346_create_student_scores_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/database/seeders/StudentsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/database/seeders/StudentsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/module2/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/module2/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/module2/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/module2/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/module2/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/module2/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/module2/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/module2/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/routes/channels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/routes/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/module2/storage/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/module2/storage/app/public/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/storage/framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/module2/storage/framework/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/module2/storage/framework/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/storage/framework/cache/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/module2/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/storage/framework/sessions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/module2/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/module2/storage/framework/testing/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/module2/storage/framework/views/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/module2/storage/logs/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/module2/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/tests/CreatesApplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/tests/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/module2/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/module2/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/modul/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -57,6 +233,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,7 +245,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685554267973</updated>
-      <workItem from="1685554269219" duration="3499000" />
+      <workItem from="1685554269219" duration="3501000" />
+      <workItem from="1685638389199" duration="288000" />
+      <workItem from="1685678116809" duration="2859000" />
     </task>
     <task id="LOCAL-00001" summary="lab-4">
       <created>1685554619416</created>
