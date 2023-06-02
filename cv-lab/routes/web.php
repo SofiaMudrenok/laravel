@@ -15,12 +15,13 @@ Route::middleware(['auth', 'verified'])->group(function () {
         return view('cv');
     })->name('cv');
 
-    Route::get('dps/{id}', [DpsController::class, 'show']);
+    Route::resource('dps', DpsController::class);
 
     Route::get('/auto', [AutoController::class, 'index'])->name('auto.index');
-    Route::resource('/auto', AutoController::class)->except(['index', 'edit', 'update', 'destroy']);
+    Route::resource('/auto', AutoController::class)->except(['edit', 'update', 'destroy']);
 
-    Route::middleware(['role:Editor'])->group(function () {
+    Route::middleware(['auth'])->group(function () {
+        Route::post('/auto/create', [AutoController::class, 'create'])->name('auto.create');
         Route::get('/auto/{auto}/edit', [AutoController::class, 'edit'])->name('auto.edit');
         Route::put('/auto/{auto}', [AutoController::class, 'update'])->name('auto.update');
         Route::delete('/auto/{auto}', [AutoController::class, 'destroy'])->name('auto.destroy');
@@ -30,7 +31,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
         return view('welcome');
     })->name('dashboard');
 
-    Route::middleware(['role:Editor'])->group(function () {
+    Route::middleware(['auth'])->group(function () {
         Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
         Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
         Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
@@ -42,4 +43,3 @@ Route::middleware('auth')->get('/login', function () {
 })->name('login');
 
 require __DIR__.'/auth.php';
-

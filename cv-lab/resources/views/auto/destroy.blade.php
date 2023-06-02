@@ -2,7 +2,7 @@
 @vite('resources/css/app.css')
 @section('content')
     <p>
-        Auto {{$competitor->name}} was removed
+        Auto {{$auto->name}} was removed
     </p>
 
     <p>

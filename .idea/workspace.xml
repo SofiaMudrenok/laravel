@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2906cae9-8f0c-4fef-a2d3-d491779c695b" name="Changes" comment="lab-4">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_05_2023_20_32__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cv-lab/app/Http/Controllers/ApiTokenController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cv-lab/app/Http/Resources/AutoCollection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cv-lab/app/Http/Resources/AutoResource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cv-lab/app/Http/Resources/DPSCollection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cv-lab/app/Http/Resources/DPSResourse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cv-lab/resources/views/token/update.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv-lab/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv-lab/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv-lab/config/cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/config/cors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv-lab/config/sanctum.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/config/sanctum.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cv-lab/resources/views/auto/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/resources/views/auto/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv-lab/resources/views/auto/destroy.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/resources/views/auto/destroy.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cv-lab/resources/views/auto/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/resources/views/auto/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv-lab/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/resources/views/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv-lab/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv-lab/resources/views/layouts/navigation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/resources/views/layouts/navigation.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv-lab/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv-lab/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv-lab/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv-lab/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,19 +29,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Sonya/Desktop/Sonya/Laravel/laravel",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sonya/Desktop/Sonya/Laravel/laravel&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
